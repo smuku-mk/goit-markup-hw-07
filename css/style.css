@@ -28,17 +28,14 @@ a {
 }
 
 /* logo */
-.logo-header {
+.logo {
   font-family: "Raleway", sans-serif;
   color: var(--black-color);
   font-size: 26px;
   line-height: 1.19;
 }
-.logo-footer {
-  font-family: "Raleway", sans-serif;
+.logo--footer {
   color: var(--white-color);
-  font-size: 26px;
-  line-height: 1.19;
 }
 .logo-web {
   color: var(--brand-color);
@@ -246,7 +243,7 @@ a {
 }
 
 /* header */
-.header-border {
+.header {
   border-bottom: var(--header-border-bottom) solid 1px;
 }
 .haeder-content {
