@@ -1,0 +1,22 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: $body;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.section {
+  padding: 94px 0;
+}
+.section:nth-child(3) {
+  padding-top: 0;
+}
