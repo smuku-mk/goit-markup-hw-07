@@ -49,7 +49,7 @@ a {
 }
 
 /* nav */
-.nav-links {
+.header__nav-item {
   color: inherit;
   font-weight: 500;
   font-size: 14px;
@@ -58,32 +58,15 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-links:focus,
-.nav-links:hover {
+.header__nav-item:focus,
+.header__nav-item:hover {
   color: var(--brand-color);
 }
-.nav-portfolio {
-  color: var(--brand-color);
-  position: relative;
-}
-.nav-portfolio::after {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  transform: translateY(45px);
-  height: 4px;
-  border-radius: 2px;
-  background-color: var(--brand-color);
-}
-.nav-agency {
+.header__nav-item--line {
   color: var(--brand-color);
   position: relative;
 }
-.nav-agency::after {
+.header__nav-item--line::after {
   content: "";
   display: block;
   position: absolute;
@@ -98,7 +81,7 @@ a {
 }
 
 /* contacts */
-.contacts-header {
+.header__contact-link {
   display: flex;
   color: var(--text-color);
   fill: var(--text-color);
@@ -109,8 +92,8 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts-header:focus,
-.contacts-header:hover {
+.header__contact-link:focus,
+.header__contact-link:hover {
   color: var(--brand-color);
   fill: var(--brand-color);
 }
@@ -256,17 +239,17 @@ a {
 .header {
   border-bottom: var(--header-border-bottom) solid 1px;
 }
-.haeder__container {
+.header__container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 24px 15px;
 }
-.contacts-header-content {
+.header__contact-list {
   display: flex;
   gap: 50px;
 }
-.nav-content {
+.header__nav-list {
   display: flex;
   gap: 46px;
   align-items: center;
@@ -294,7 +277,7 @@ a {
   text-align: center;
   width: 696px;
 }
-.navigation {
+.header__nav {
   display: flex;
 }
 
@@ -387,11 +370,11 @@ a {
 }
 
 /* header icons */
-.contacts-header-icon-envelope {
+.header__icon-envelope {
   margin-right: 10px;
   vertical-align: -1px;
 }
-.contacts-header-icon-smartphone {
+.header__icon-smartphone {
   margin-right: 10px;
   vertical-align: -3px;
 }
