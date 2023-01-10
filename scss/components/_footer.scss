@@ -119,7 +119,7 @@
 
     .btn--newsletter:hover &,
     .btn--newsletter:focus & {
-      fill: var(--brand-color);
+      fill: $brand;
     }
   }
 }
