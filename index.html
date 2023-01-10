@@ -591,27 +591,27 @@
       </section>
     </main>
     <!-- FOOTER -->
-    <footer class="footer-bg">
-      <div class="container footer-content">
+    <footer class="footer">
+      <div class="container footer__container">
         <!-- FOOTER CONTACTS -->
         <div>
           <a class="logo logo--footer" href="#">
             <span class="logo__web">Web</span>Studio
           </a>
-          <address class="footer-address">
-            <ul class="footer-address-list">
+          <address class="footer__address">
+            <ul class="footer__address-list">
               <li>
-                <p class="company-address">
+                <p class="footer__company-address">
                   m. Warszawa, Aleje Jerozolimskie 21
                 </p>
               </li>
               <li>
-                <a class="contacts-footer" href="mailto:info@example.com">
+                <a class="footer__contact-link" href="mailto:info@example.com">
                   info@example.com
                 </a>
               </li>
               <li>
-                <a class="contacts-footer" href="tel:+48111111111">
+                <a class="footer__contact-link" href="tel:+48111111111">
                   +48 111 111 111
                 </a>
               </li>
@@ -619,11 +619,11 @@
           </address>
         </div>
         <!-- FOOTER JOIN US -->
-        <div class="join-us-container">
-          <h3 class="footer-titles">dołącz do nas</h3>
-          <div class="join-us-links-container">
-            <a class="join-us-links" href="#">
-              <svg class="join-us-svg" width="44" height="44">
+        <div class="footer__join-us">
+          <h3 class="footer__titles">dołącz do nas</h3>
+          <div class="footer__social-container">
+            <a class="footer__social" href="#">
+              <svg class="footer__social-icon" width="44" height="44">
                 <use
                   width="20"
                   height="20"
@@ -633,8 +633,8 @@
                 ></use>
               </svg>
             </a>
-            <a class="join-us-links" href="#">
-              <svg class="join-us-svg" width="44" height="44">
+            <a class="footer__social" href="#">
+              <svg class="footer__social-icon" width="44" height="44">
                 <use
                   width="20"
                   height="20"
@@ -644,8 +644,8 @@
                 ></use>
               </svg>
             </a>
-            <a class="join-us-links" href="#">
-              <svg class="join-us-svg" width="44" height="44">
+            <a class="footer__social" href="#">
+              <svg class="footer__social-icon" width="44" height="44">
                 <use
                   width="20"
                   height="20"
@@ -655,8 +655,8 @@
                 ></use>
               </svg>
             </a>
-            <a class="join-us-links" href="#">
-              <svg class="join-us-svg" width="44" height="44">
+            <a class="footer__social" href="#">
+              <svg class="footer__social-icon" width="44" height="44">
                 <use
                   width="20"
                   height="20"
@@ -671,13 +671,14 @@
         <!-- FOOTER NEWSLETTER -->
         <form name="newsletter" id="newsletter" autocomplete="on" validate>
           <div
-            class="newsletter-container"
+            class="footer__label-container"
             role="group"
             aria-labelledby="newsletter"
           >
             <label>
-              <span class="footer-titles">zapisz się do newslettera</span>
+              <span class="footer__titles">zapisz się do newslettera</span>
               <input
+                class="footer__input"
                 type="email"
                 name="newsletter-email"
                 placeholder="E-mail"
@@ -686,9 +687,9 @@
             </label>
           </div>
           <button type="submit" class="btn btn--newsletter">
-            <span class="newslatter-button-content">
+            <span class="footer__btn-container">
               Zapisz się
-              <svg class="newsletter-icon" width="24" height="24">
+              <svg class="footer__btn-icon" width="24" height="24">
                 <use href="images/icons.svg#icon-send"></use>
               </svg>
             </span>
