@@ -173,14 +173,14 @@ a {
 }
 
 /* lorem ipsum */
-.lorem-ipsum-title {
+.our-strengths__titles {
   color: inherit;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   margin-bottom: 10px;
 }
-.lorem-ipsum-text {
+.our-strengths__text {
   color: var(--text-color);
   font-size: 14px;
   line-height: 1.71;
@@ -282,7 +282,7 @@ a {
 }
 
 /* lorem */
-.lorem-ipsum-list {
+.our-strengths {
   display: flex;
   gap: 30px;
 }
@@ -380,7 +380,7 @@ a {
 }
 
 /* lorem ipsum icons */
-.lorem-ipsum-list > li > svg {
+.our-strengths__icon {
   background-color: var(--our-strenghts-icon-bg);
   margin-bottom: 30px;
 }
