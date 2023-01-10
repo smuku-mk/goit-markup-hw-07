@@ -615,14 +615,14 @@ a {
 }
 
 /* modal form */
-.modal-title {
+.order-form {
   font-size: 20px;
   line-height: 1, 15;
   letter-spacing: 0.03em;
   color: inherit;
   margin-bottom: 12px;
 }
-.order-input-title {
+.order-form__input-title {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
@@ -651,23 +651,23 @@ a {
   background-color: var(--white-color);
   color: var(--brand-color);
 }
-.order-links {
+.order-form__link {
   text-decoration: underline;
   color: var(--brand-color);
 }
-.order-checkbox-text {
+.order-form__checkbox-text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
-.order-label {
+.order-form__label {
   display: block;
   margin-bottom: 10px;
   width: 100%;
   position: relative;
 }
-.order-textarea {
+.order-form__textarea {
   resize: none;
   border: 1px solid var(--order-input-placeholder);
   border-radius: 4px;
@@ -681,13 +681,13 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.order-textarea::placeholder {
+.order-form__textarea::placeholder {
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--order-textarea-placeholder);
 }
-.order-input {
+.order-form__input {
   width: 100%;
   border: 1px solid var(--order-input-placeholder);
   border-radius: 4px;
@@ -698,16 +698,16 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.order-label:focus-within .order-input {
+.order-form__label:focus-within .order-form__input {
   border: 1px solid var(--brand-color);
 }
-.order-label:focus-within .order-form-icon {
+.order-form__label:focus-within .order-form__icon {
   fill: var(--brand-color);
 }
-.order-textarea:focus {
+.order-form__textarea:focus {
   border: 1px solid var(--brand-color);
 }
-.order-form-icon {
+.order-form__icon {
   position: absolute;
   left: 15px;
   top: 30px;
@@ -715,7 +715,7 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.order-checkbox-icon {
+.order-form__checkbox-icon {
   position: absolute;
   fill: var(--white-color);
   border: 2px solid var(--body-color);
@@ -726,10 +726,10 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.order-checkbox-input {
-  margin-right: 5px;
+.order-form__checkbox-input {
+  margin-right: 7px;
 }
-.order-checkbox-input:checked + .order-checkbox-icon {
+.order-form__checkbox-input:checked + .order-form__checkbox-icon {
   fill: var(--brand-color);
   border: none;
 }
