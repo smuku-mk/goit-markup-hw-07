@@ -162,7 +162,7 @@ a {
 }
 
 /* hero */
-.hero-text {
+.hero__title {
   color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
@@ -257,7 +257,7 @@ a {
 }
 
 /* hero */
-.hero-section {
+.hero {
   background-image: linear-gradient(
       var(--hero-bg-gradient),
       var(--hero-bg-gradient)
@@ -273,7 +273,7 @@ a {
   max-width: 1600px;
   margin: 0 auto;
 }
-.hero-content {
+.hero__content {
   text-align: center;
   width: 696px;
 }
