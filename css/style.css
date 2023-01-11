@@ -404,11 +404,11 @@ a {
 }
 
 /* our customers */
-.our-customers-container {
+.our-customers {
   display: flex;
   gap: 30px;
 }
-.our-customers-links {
+.our-customers__link {
   width: 170px;
   font-size: 0;
   border: 1px solid var(--icons-fill);
@@ -418,8 +418,8 @@ a {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.our-customers-links:hover,
-.our-customers-links:focus {
+.our-customers__link:hover,
+.our-customers__link:focus {
   fill: var(--brand-color);
   border-color: var(--brand-color);
 }
