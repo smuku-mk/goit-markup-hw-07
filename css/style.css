@@ -188,11 +188,13 @@ a {
 }
 
 /* section our team and what we do */
-.sections-titles {
+.section__title {
   color: inherit;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
 }
 .team-names {
   color: inherit;
@@ -288,13 +290,9 @@ a {
 }
 
 /* what we do */
-.what-we-do-pictures {
+.what-we-do {
   display: flex;
   gap: 30px;
-}
-.what-we-do-title {
-  text-align: center;
-  margin-bottom: 50px;
 }
 
 /* our team */
@@ -305,7 +303,7 @@ a {
 .our-team-section {
   background-color: var(--our-team-bg);
 }
-.our-team-title {
+.section-title--our-team {
   text-align: center;
   margin-bottom: 50px;
 }
@@ -406,10 +404,6 @@ a {
 }
 
 /* our customers */
-.our-customers-title {
-  text-align: center;
-  margin-bottom: 50px;
-}
 .our-customers-container {
   display: flex;
   gap: 30px;
@@ -466,11 +460,11 @@ a {
 }
 
 /* hw5 */
-.what-we-do-pictures > li {
+.what-we-do__item {
   position: relative;
   font-size: 0;
 }
-.what-we-do-img-title {
+.what-we-do__img-title {
   position: absolute;
   bottom: 0;
   left: 0;
