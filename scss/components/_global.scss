@@ -25,6 +25,10 @@ a {
     text-align: center;
     margin-bottom: 50px;
   }
+
+  &--our-team {
+    background-color: var(--our-team-bg);
+  }
 }
 .section:nth-child(3) {
   padding-top: 0;
