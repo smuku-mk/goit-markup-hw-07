@@ -61,6 +61,7 @@
   &__contact-link {
     display: flex;
     color: $text;
+    align-items: center;
     fill: $text;
     font-weight: 500;
     font-size: 14px;
@@ -76,13 +77,7 @@
     }
   }
 
-  &__icon-envelope {
+  &__icon {
     margin-right: 10px;
-    vertical-align: -1px;
-  }
-
-  &__icon-smartphone {
-    margin-right: 10px;
-    vertical-align: -3px;
   }
 }
