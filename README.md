@@ -1,3 +1,4 @@
-# goit-markup-hw-07
+First HTML Project - step_07
 
-https://smukuhapace.github.io/goit-markup-hw-07/
+- Added BEM methodology
+- Added preprocessor SASS
